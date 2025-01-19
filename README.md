@@ -20,3 +20,7 @@ options:
   --output OUTPUT, -o OUTPUT
                         Base filename for output files (default: burp_params)
 ```
+
+## ToDo
+
+Add -k/--keys and -v/--values search options to search for and output only specific values by key. This could be useful for piping into other tools.
