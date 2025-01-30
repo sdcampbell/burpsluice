@@ -8,7 +8,7 @@ In Burp's Target tab, right click on one or many domains and "Save selected item
 
 ```
 python3 burpsluice.py -h
-usage: burpsluice.py [-h] [--output OUTPUT] xml_file
+usage: burpsluice.py [-h] [--output OUTPUT] [--key KEY] xml_file
 
 Parse Burp Suite XML output for parameters
 
@@ -19,8 +19,5 @@ options:
   -h, --help            show this help message and exit
   --output OUTPUT, -o OUTPUT
                         Base filename for output files (default: burp_params)
+  --key KEY, -k KEY     Search for values of a specific key and print to stdout
 ```
-
-## ToDo
-
-Add -k/--keys and -v/--values search options to search for and output only specific values by key. This could be useful for piping into other tools.
